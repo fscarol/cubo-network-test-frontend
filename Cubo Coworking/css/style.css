@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+body {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto; }
+
+header {
+  background: #fff; }
+
+h1 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase; }
+
+h2 {
+  font-weight: normal; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  font-family: "Myriad Pro", Calibri, sans-serif;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline; }
+
+#sobre {
+  background: #ffc40c; }
+
+#cadastre-se {
+  background: #00b8e2; }
+
+#copyright {
+  padding: 20px 0;
+  background: #828282;
+  font-size: 0.813em; }
+
+footer {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+/*# sourceMappingURL=style.css.map */

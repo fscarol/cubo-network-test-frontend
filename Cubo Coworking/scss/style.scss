@@ -1,0 +1,68 @@
+//Color Variables
+
+$white: #fff;
+$yellow: #ffc40c;
+$blue: #00b8e2;
+$gray: #828282;
+
+$font-primary: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$font-secondary: "Myriad Pro", Calibri, sans-serif;
+
+body {
+    margin: 0;
+    font-family: $font-primary;
+}
+
+body{
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+}
+
+header {
+    background: $white;
+}
+
+h1 {
+    font-family: $font-primary;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    font-family: $font-secondary;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+} 
+
+#sobre {
+    background: $yellow;
+}
+
+#cadastre-se {
+    background: $blue;
+}
+
+#copyright {
+    padding: 20px 0;
+    background: $gray;
+    font-size: 0.813em;
+}
+
+footer {
+    font-family: $font-primary;
+}
