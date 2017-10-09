@@ -2,163 +2,190 @@
 <html>
     <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <title>Cubo Coworking</title>
   </head>
     
   <body>
-      <header>
-          <a href="index.html" id="logo">
-            <img src="images/logo-cubo.png" alt="Logotipo do Cubo Coworking - Itaú">
-          </a>
-
-          <nav>
-              <ul>
-                <li><a href="index.html" class="btn-selected">Home</a></li>
-                <li><a href="menu-1.html">Menu 1</a></li>
-                <li><a href="menu-1.html">Menu 2</a></li>
-                <li><a href="menu-1.html">Menu 3</a></li>
-              </ul>    
-          </nav>
+      <header class="main-header">
+          <div class="container">
+              <nav class="main-nav">
+                <ul class="nav">
+                    <li class="logo"><a href="index.html"><img src="images/logo-cubo.png" alt="Logotipo do Cubo Coworking - Itaú"></a></li>
+                    <li><a href="index.html" class="btn btn-nav">Home</a></li>
+                    <li><a href="menu-1.html">Menu 1</a></li>
+                    <li><a href="menu-1.html">Menu 2</a></li>
+                    <li><a href="menu-1.html">Menu 3</a></li>
+                  </ul>    
+              </nav>
+          </div>
+              
+              
       </header>
 <!--      Criar slider aqui!-->
-      <div class="slider">
-          <img src="images/img-slider-01.jpg">
+      <div>
+          <img class="slider" src="images/img-slider-01.jpg" width="50%">
+<!--
+          <img src="images/img-slider-02.jpg">
+          <img src="images/img-slider-03.jpg">
+-->
       </div>
       
-      <div id="servicos">
-<!--          Adicionar as imagens no css com o :before-->
-          
-          <h1>Serviços</h1>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-          
-          <div>
-              <p>rhoncus purus in</p>
-              <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-          </div>
-          
-          <div>
-              <p>mattis augue tristique</p>
-              <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-          </div>          
+      <section class="services">
+          <div class="container">
+    <!--          Adicionar as imagens no css com o :before-->
 
-          <div>
-              <p>elementum lacus vitae</p>
-              <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-          </div>
-          
-          <div>
-              <p>Mauris bibendum odio ligula</p>
-              <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-          </div>          
-          
-      </div>
-      
-      <div id="sobre">
-          <h1>Sobre Nós</h1>
-          <img src="images/sobre-nos.jpg" alt="Papeis coloridos amassados sobre uma mesa. Um deles faz referencia a uma lâmpada. Ideia!">
-          <p>In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. Proin nec tempor ipsum. Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. 
- Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.</p>
-          
-<!--          Criar três círculos com Percentual, Hora e Valor no css. Animar tb! -->
-      </div>
-      
-      <div id="comoFunciona">
-          <h1>Como Funciona?</h1>
-          <div class="passos">
-              <h2>Passo 1</h2>
-              <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
-          </div>
-          <div class="passos">
-              <h2>Passo 2</h2>
-              <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
-          </div>  
-          <div class="passos">
-              <h2>Passo 3</h2>
-              <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
-          </div>   
-          <div class="passos">
-              <h2>Passo 4</h2>
-              <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
-          </div>
-          <a class="btn-info" href="#">Leia Mais</a>
-          
-      </div>
-      
-      <div id="cadastre-se">
-          <h1>Cadastre-se</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <!--          Adicionar as imagens no css com o :before-->      
-          <form>
-              <input type="text" name="nome" placeholder="Nome">
-              <input type="email" name="email" placeholder="Email">
-              <input type="tel" name="telefone" placeholder="Telefone">
-              <a class="btn-enviar">Enviar</a>
-          </form>
-      </div>
-      <div id="dados">
-          <h1>Dados</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          
-          <table>
-              <tr>
-                  <th> </th>
-                  <th>Nome</th>
-                  <th>Sobrenome</th>
-                  <th>Participação</th>
-              </tr>
-              <tr>
-                  <td>1</td>
-                  <td>Carlos</td>
-                  <td>Moura</td>
-                  <td>5%</td>
-              </tr>
-              <tr>
-                  <td>2</td>
-                  <td>Fernanda</td>
-                  <td>Oliveira</td>
-                  <td>15%</td>
-              </tr>
-               <tr>
-                  <td>3</td>
-                  <td>Hugo</td>
-                  <td>Silva</td>
-                  <td>20%</td>
-              </tr>             
-              <tr>
-                  <td>4</td>
-                  <td>Eliza</td>
-                  <td>Souza</td>
-                  <td>20%</td>
-               </tr>                   
-               <tr>
-                  <td>5</td>
-                  <td>Anderson</td>
-                  <td>Santos</td>
-                  <td>40%</td>
-              </tr>                 
-          </table>
+              <h1>Serviços</h1>
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 
-<!--         Criar o gráfico no css-->
-      </div>
+              <div>
+                  <h2>rhoncus purus in</h2>
+                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </div>
+
+              <div>
+                  <h2>mattis augue tristique</h2>
+                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </div>          
+
+              <div>
+                  <h2>elementum lacus vitae</h2>
+                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </div>
+
+              <div>
+                  <h2>Mauris bibendum odio ligula</h2>
+                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </div>          
+
+          </div>
+      </section>
+      
+      <section class="about">
+          <div class="about-img">
+              <img src="images/sobre-nos.jpg" alt="Papeis coloridos amassados sobre uma mesa. Um deles faz referencia a uma lâmpada. Ideia!">
+          </div>
+          <div class="about-txt">
+              <h1>Sobre Nós</h1>
+              <p>In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. Proin nec tempor ipsum. Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.</p>
+          </div>
+
+    <!--          Criar três círculos com Percentual, Hora e Valor no css. Animar tb! -->
+   
+      </section>
+      
+      <section class="how-it-works">
+          <div class="container">
+              <h1>Como Funciona?</h1>
+              <div class="steps">
+                  <h2>Passo 1</h2>
+                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+              </div>
+              <div class="steps">
+                  <h2>Passo 2</h2>
+                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+              </div>  
+              <div class="steps">
+                  <h2>Passo 3</h2>
+                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+              </div>   
+              <div class="steps">
+                  <h2>Passo 4</h2>
+                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+              </div>
+              <a class="btn btn-info" href="#">Leia Mais</a>
+
+          </div>
+      </section>
+      
+      <section class="register">
+          <div class="container">
+              <h1>Cadastre-se</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <!--          Adicionar as imagens no css com o :before-->      
+              <div class="form-register">
+                  <form>
+                      <input type="text" name="nome" placeholder="Nome">
+                      <input type="email" name="email" placeholder="Email">
+                      <input type="tel" name="telefone" placeholder="Telefone">
+                      <a class="btn btn-send">Enviar</a>
+                  </form>
+              </div>
+          </div>
+      </section>
+          
+      <section class="data">   
+          <div class="container">
+              <h1>Dados</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+              <table>
+                  <tr>
+                      <th> </th>
+                      <th class="table-header">Nome</th>
+                      <th class="table-header">Sobrenome</th>
+                      <th class="column-centered">Participação</th>
+                  </tr>
+                  <tr>
+                      <td>1</td>
+                      <td>Carlos</td>
+                      <td>Moura</td>
+                      <td class="column-centered">5%</td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>Fernanda</td>
+                      <td>Oliveira</td>
+                      <td class="column-centered">15%</td>
+                  </tr>
+                   <tr>
+                      <td>3</td>
+                      <td>Hugo</td>
+                      <td>Silva</td>
+                      <td class="column-centered">20%</td>
+                  </tr>             
+                  <tr>
+                      <td>4</td>
+                      <td>Eliza</td>
+                      <td>Souza</td>
+                      <td class="column-centered">20%</td>
+                   </tr>                   
+                   <tr>
+                      <td>5</td>
+                      <td>Anderson</td>
+                      <td>Santos</td>
+                      <td class="column-centered">40%</td>
+                  </tr>                 
+              </table>
+
+    <!--         Criar o gráfico no css-->
+          </div>
+      </section> 
     </body>
     <footer>
-        <p>CUBO<br>Rua Casa do Ator, 919<br>04546-003 - São Paulo - SP</p>
-        <a href="https://www.plus.google.com/">
-            <img src="images/facebook-icon.png" alt="Ícone da página do Cubo no Facebook.">
-        </a>
-        <a href="https://www.facebook.com/cubo.network/">
-            <img src="images/google-plus-icon.png" alt="Ícone que levaria para a página do Cubo no Google Plus.">
-        </a>
-        <a href="https://twitter.com/cubo_network/">
-            <img src="images/twitter-icon.png" alt="Ícone que leva para a página do Cubo no Twitter.">
-        </a>    
-        <a href="https://www.youtube.com/channel/UC0X7Mjk9NuEHFqxu_xasveg">
-            <img src="images/youtube-icon.png" alt="Ícone que leva para a página do Cubo no Youtube.">
-        </a>
-        <div id="copyright">
+        <div class="line"></div>
+        <div class="container">
+            <div class="cubo-adress">
+                <p><strong>CUBO</strong></p>
+                <p>Rua Casa do Ator, 919</p>
+                <p>04546-003 - São Paulo - SP</p>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.plus.google.com/" target="_blank">
+                        <img src="images/facebook-icon.png" alt="Ícone da página do Cubo no Facebook."></a></li>
+                    <li><a href="https://www.facebook.com/cubo.network/" target="_blank"><img src="images/google-plus-icon.png" alt="Ícone que levaria para a página do Cubo no Google Plus."></a></li>
+                    <li><a href="https://twitter.com/cubo_network/" target="_blank"><img src="images/twitter-icon.png" alt="Ícone que leva para a página do Cubo no Twitter."></a></li>    
+                    <li><a href="https://www.youtube.com/channel/UC0X7Mjk9NuEHFqxu_xasveg" target="_blank"><img src="images/youtube-icon.png" alt="Ícone que leva para a página do Cubo no Youtube."></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright-footer">
             <p>© copyright 2016 - Lorem ipsum dolor sit amet consectetur</p>
         </div>
+            
       </footer>
     
 </html>
