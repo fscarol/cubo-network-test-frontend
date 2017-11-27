@@ -1,9 +1,14 @@
 @import "variables";
 
-/* Base Styles */
+////////////* Base Styles *////////////
 
 * {
     box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
 }
 
 body {
@@ -18,6 +23,7 @@ a {
 h1 {
     font-family: $font-primary;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h2 {
@@ -28,72 +34,341 @@ footer {
     font-family: $font-primary;
 }
 
+////////////* Navigation *////////////
+
 .nav li,
 .social-media li {
     display: inline;
-}
-
-.nav, 
-ul {
-    font-family: $font-secondary;
     list-style-type: none;
     text-transform: uppercase;
+    font-family: $font-secondary;
 }
 
 .main-nav {
     width: 100%;
     background: $white;
     min-height: 30px;
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+.logo {
+    justify-content: flex-start;
 }
 
 .nav {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     font-weight: 100;
-    padding: 0;
+}
+
+.nav li {
+    align-self: center;
+    padding-left: 40px;
+    margin: 0;
 }
 
 .main-header {
     background: $white;
 }
 
-.container {
-    width: 70%;
-    margin: 0 auto;
+////////////* Slider *////////////
+.slider-content { 
+    position: relative;
 }
 
-.about {
+.slider {
+    max-width: 100%;
+    z-index: 10;
+}
+
+.box-slider {
+    fill: $orange;
     color: $white;
-    background: $yellow;
+    position: absolute;
+    left: 315px;
+    top: 260px;
+    width: 425px;
+    height: 200px;
+    z-index: 166;
 }
 
-//.about-img {
-//    display: flex;
-//}
+.slider-box-txt {
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    margin: 25px;
+    h1 {
+        font-family: $font-primary;
+        font-size: 1.25em;
+    }
+    p {
+        font-family: $font-primary;
+    }
+}
 
-.services p,
-.how-it-works p {
+////////////* Services *////////////
+
+.services-list {
+    padding: 0;
+    margin: 55px 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    & li {
+        width: 45%;
+        // quando fizer os media queries, mexer no width
+        margin-bottom: 46px;
+        margin-right: 5%;
+    }
+}
+
+.services{
+    margin: 95px 0;
+}
+
+.services p {
     color: $gray-text;
+    font-family: $font-secondary;
+    font-size: 1.05em;
+    text-align: left;
 }
 
-.services h2,
-.how-it-works h2 {
-    color: $graphite;
-    text-transform: uppercase;
+.services-header p {
+    text-align: center;
 }
 
 .services h2 {
+    color: $gray-text;
     font-family: $font-secondary;
-    font: 1.4em;
+    font-size: 1.4em;
+    text-align: left;
+    text-transform: uppercase;
     margin: 0;
 }
 
-.how-it-works h2 {
-    font-family: $font-primary;
-    font: 1.6em;
-    margin: 0;
+.blue-services {
+    fill: $blue-services;
 }
+
+.services-type {
+    display: flex;
+}
+
+.services-img {
+    display: inline-block;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.services-txt {
+    display: inline-block;
+}
+
+
+////////////* About *////////////
+
+.about {
+    background: $yellow;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    max-height: 621px;
+}
+
+.about-img {
+    top: 0;
+    right: 50%;
+    max-width: 100%;
+    max-height: 100%;
+//    left: 0;
+//    bottom: 0;
+}
+
+.about-content {
+    width: 80%;
+    margin: 90px 40px;
+}
+
+.about-txt {
+    width: 75%;
+}
+
+.about-chart {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.about-txt p {
+    padding-bottom: 40px;
+}
+
+////// About - Circles and Animations ////// 
+//@mixin circle-white {
+//    fill: none;
+//    stroke: $white;
+//    stroke-width: 5;
+//}
+//    
+//@mixin circle-gray {
+//    fill: none;
+//    stroke: #404A58;
+//    stroke-width: 7;
+//    stroke-dasharray: 388;
+//    stroke-dashoffset: 388;
+//    animation: dash-01 2s linear forwards;
+//}    
+    
+#circle-01,
+#circle-02,
+#circle-03 {
+    margin: 0 50px 0 0;
+}
+
+.circle-01-white {
+    fill: none;
+    stroke: $white;
+    stroke-width: 5;
+}
+
+.circle-01-gray {
+    fill: none;
+    stroke: #404A58;
+    stroke-width: 7;
+    stroke-dasharray: 388;
+    stroke-dashoffset: 388;
+    animation: dash-01 2s linear forwards;
+}
+
+.circle-02-white {
+    fill: none;
+    stroke: $white;
+    stroke-width:5;
+}
+
+.circle-02-gray {
+    fill: none;
+    stroke: #404A58;
+    stroke-width: 7;
+    stroke-dasharray: 388;
+    stroke-dashoffset: 388;
+    animation: dash-02 2s linear forwards;
+}
+
+.circle-03-white {
+    fill: none;
+    stroke: $white;
+    stroke-width:5;
+}
+
+.circle-03-gray {
+    fill: none;
+    stroke: #404A58;
+    stroke-width: 7;
+    stroke-dasharray: 388;
+    stroke-dashoffset: 388;
+    animation: dash-03 2s linear forwards;
+}
+
+@keyframes dash-01 {
+    0% {
+        stroke-dashoffset: 388;
+    }
+    100% {
+        stroke-dashoffset: 388 * 0.82;
+    }
+}
+
+@keyframes dash-02 {
+    0% {
+        stroke-dashoffset: 388;
+    }
+    100% {
+        stroke-dashoffset: 388 * 0.25;
+    }
+}
+
+@keyframes dash-03 {
+    0% {
+        stroke-dashoffset: 388;
+    }
+    100% {
+        stroke-dashoffset: 388 * 0.65;
+    }
+}
+
+////////////* How It Works *////////////
+
+.header-hiw {
+    margin-bottom: 88px;
+}
+
+.icons-hiw {
+    fill: $green-hiw;
+    width: 50%;
+}
+
+.how-it-works {
+    margin: 88px 0 80px 0;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+//    align-items: stretch;
+//    align-content: center;
+}
+
+.step {
+    width: 12%;
+    text-align: center;
+//    vertical-align: middle;
+}
+
+.step h1, h2 {
+    color: $graphite;
+}
+
+.how-it-works p {
+    color: $gray-text;
+    margin: 0;
+    font-family: $font-secondary;
+    font-size: 1.063em;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    color: $graphite;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.arrow {
+    fill: none;
+//    align-self: flex-start;
+    stroke: $green-hiw;
+    stroke-width: 3;
+    vertical-align: middle;
+    padding: 0 1%;
+}
+
+.arrow-up {
+    transform: rotate(180deg);
+//    align-self: center;
+}
+////////////* Register *////////////
 
 .register {
     color: $white;
@@ -108,6 +383,8 @@ ul {
 .btn {
     cursor: pointer;
     text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
 }
 
 .btn-nav {
@@ -121,6 +398,10 @@ ul {
     background: $green;
     font-weight: bold;
     padding: 10px 20px;
+    width: 152px;
+    height: 52px;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
 .btn-send {
@@ -131,9 +412,13 @@ ul {
     border: 2px solid $white;
 }
 
-//.form-register {
-//    
-//}
+.header-data {
+   margin-top: 90px; 
+}
+
+.form-register {
+display: inline-block;
+}
 
 input[type="text"],
 input[type="email"],
@@ -147,24 +432,25 @@ input[type="tel"] {
     border: $white;
 }
 
+////////////* MESS *////////////
+
 .register,
 .copyright-footer,
 .how-it-works h1,
 .data h1,
 .data p,
-.services h1,
-.services h2 {
+.services h1 {
     text-align: center;
 }
 
 .how-it-works h1,
 .data h1,
 .data p,
-.services h1,
-.services h2,
-{
+.services h1 {
     color: $graphite;
 }
+
+////////////* Data *////////////
 
 table{
     color: $gray-font-table;
@@ -172,6 +458,7 @@ table{
     text-align: left;
     font-size: 1.2em;
     margin-top: 20px;
+    display: inline-block;
     tr,
     th,
     td {
@@ -180,12 +467,54 @@ table{
     }
 }
 
+.chart-circle {
+    width: 40%;
+    display: inline-block;
+    margin-left: 136px;
+    margin-top: 30px;
+}
+
+.label-graph {
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.blue-hugo {
+    fill: $blue-hugo;
+}
+
+.gray-fernanda {
+    fill: $gray-fernanda;
+}
+
+.purple-eliza {
+    fill: $purple-eliza;
+}
+
+.orange-anderson {
+    fill: $orange-anderson;
+}
+
+.green-carlos {
+    fill: $green-carlos;
+}
+
 .column-centered {
     text-align: center;
 }
 
 .table-header {
     width: 170px;
+}
+
+////////////* Footer *////////////
+
+.footer {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .line {
@@ -213,7 +542,3 @@ table{
         margin: 0;
     }
 }
-
-//.logo {
-//    justify-content: flex-start;
-//}

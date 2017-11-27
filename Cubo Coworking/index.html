@@ -12,8 +12,12 @@
       <header class="main-header">
           <div class="container">
               <nav class="main-nav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-cubo.png" alt="Logotipo do Cubo Coworking - Itaú">
+                    </a>
+                  </div>
                 <ul class="nav">
-                    <li class="logo"><a href="index.html"><img src="images/logo-cubo.png" alt="Logotipo do Cubo Coworking - Itaú"></a></li>
                     <li><a href="index.html" class="btn btn-nav">Home</a></li>
                     <li><a href="menu-1.html">Menu 1</a></li>
                     <li><a href="menu-1.html">Menu 2</a></li>
@@ -25,40 +29,84 @@
               
       </header>
 <!--      Criar slider aqui!-->
-      <div>
-          <img class="slider" src="images/img-slider-01.jpg" width="50%">
+      <div class="slider-content">
+          <img class="slider" src="images/img-slider-01.jpg">
 <!--
           <img src="images/img-slider-02.jpg">
           <img src="images/img-slider-03.jpg">
+
 -->
+          <div class="box-slider">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="100%">
+                  <path d="M425.6 195.5h-425.7l-.4-196h425.7z"/>
+              </svg>
+              <div class="slider-box-txt">
+                  <h1>Lorem ipsum dolor</h1>
+                  <p>Aenean ultrices ultricies vulputate. Donec ut pulvinar ipsum. Maecenas tincidunt lorem at enim pharetra hendrerit vivamus in elemene.</p>
+              </div>
+          </div>
       </div>
       
       <section class="services">
           <div class="container">
-    <!--          Adicionar as imagens no css com o :before-->
-
-              <h1>Serviços</h1>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-
-              <div>
-                  <h2>rhoncus purus in</h2>
-                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <div class="services-header">
+                  <h1>Serviços</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
-
-              <div>
-                  <h2>mattis augue tristique</h2>
-                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-              </div>          
-
-              <div>
-                  <h2>elementum lacus vitae</h2>
-                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-              </div>
-
-              <div>
-                  <h2>Mauris bibendum odio ligula</h2>
-                  <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-              </div>          
+              <ul class="services-list">
+                  <li>
+                      <div class="services-type">
+                          <div class="services-img">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+                                <path class="blue-services" d="M87.5 47.7c0-7-9.6-12.5-21.9-12.5-3.4 0-6.5.4-9.3 1.2v-22.9c0-7-9.6-12.5-21.9-12.5-12.3 0-22 5.5-22 12.5v52.49999999999999c0 7 9.6 12.5 21.9 12.5 3.3 0 6.5-.4 9.3-1.1v9.5c0 7 9.6 12.5 21.9 12.5s21.9-5.5 21.9-12.5v-39.199999999999996h.1zm-69.3-25.7c.1.1.4.2.5.2.5.4 1.1.6 1.7.9l1.8.7c.2.1.5.1.6.2.5.1.9.2 1.3.5.2.1.5.1.9.2.5.1.9.2 1.3.4.2.1.6.1.9.1l1.5.2c.2 0 .6.1.9.1.5.1 1.1.1 1.6.1.2 0 .5 0 .7.1.9 0 1.6.1 2.4.1.9 0 1.7 0 2.4-.1.2 0 .5 0 .7-.1l1.6-.1c.2 0 .6-.1.9-.1l1.5-.2c.2 0 .6-.1.9-.1.5-.1.9-.2 1.3-.4.2-.1.5-.1.9-.2.5-.1.9-.2 1.3-.5.2-.1.5-.1.6-.2l1.8-.7c.6-.2 1.1-.6 1.7-.9.1-.1.4-.2.5-.2l1.1-.7s.1-.1.2-.1v4.8c0 3.8-7.1 7.9-17.4 7.9s-17.4-4.2-17.4-7.9v-4.8s.1.1.2.1c.4.2.8.5 1.1.7zm37.3 36.7c.2.1.5.1.9.2.5.1.9.2 1.3.4.2.1.6.1.9.1l1.5.2c.2 0 .6.1.9.1.5.1 1.1.1 1.6.1.2 0 .5 0 .7.1.9 0 1.6.1 2.4.1.9 0 1.7 0 2.4-.1.2 0 .5 0 .7-.1l1.6-.1c.2 0 .6-.1.9-.1l1.5-.2c.2 0 .6-.1.9-.1.5-.1.9-.2 1.3-.4.2-.1.5-.1.9-.2.5-.1.9-.2 1.3-.5.2-.1.5-.1.6-.2l1.8-.7c.6-.2 1.1-.6 1.7-.9.1-.1.4-.2.5-.2l1.1-.7s.1-.1.2-.1v4.6c0 3.8-7.1 7.9-17.4 7.9-4.4 0-8.3-.7-11.2-2 0 0-.1 0-.1-.1-3.3-1.3-5.5-3.3-6-5.1v-5.6c.2.1.4.2.6.5h.1l.2.1c.2.1.4.2.6.4.2.1.4.2.6.4h.1l.2.1c.5.2 1 .5 1.6.7.1 0 .2.1.4.1.2.1.6.2.9.4l.6.2c.2.4.7.6 1.2.7zm-11.7.4c-2.8.9-6 1.3-9.3 1.3-10.3 0-17.4-4.2-17.4-7.9v-4.8c4 2.9 10.3 4.8 17.4 4.8 3.3 0 6.5-.4 9.3-1.1v7.7zm39.2 14.2c0 3.8-7.1 7.9-17.4 7.9-9.9 0-17-3.9-17.4-7.6v-5.1c1 .7 2.1 1.3 3.3 2 .2.1.4.2.6.2.1 0 .2.1.4.1 3.7 1.5 8.1 2.4 13.1 2.4 7.2 0 13.4-1.8 17.4-4.8v4.9zm-37.6-30.5c-.2.2-.4.6-.6.9-.1.1-.1.2-.2.5-.1.2-.2.5-.2.6-.1.2-.1.5-.2.6l-.1.2c-2.8 1-6.1 1.5-9.5 1.5-10.3 0-17.4-4.2-17.4-7.9v-4.8c4 2.9 10.3 4.8 17.4 4.8s13.4-1.8 17.4-4.8v3.4c-2.8 1.2-5 2.9-6.4 4.8-.1.2-.2.2-.2.2zm37.6 4.9c0 3.8-7.1 7.9-17.4 7.9-4.8 0-8.8-.9-11.7-2.2l-1.1-.5s-.1 0-.1-.1h-.1l-.5-.2c-.2-.2-.4-.4-.5-.4 0 0-.1 0-.1-.1h-.1c-.2-.1-.5-.4-.7-.6h-.1l-.4-.4c-.1-.1-.2-.2-.4-.2l-.4-.4c-.1-.1-.2-.2-.2-.4-.2-.1-.2-.2-.3-.3-.1-.1-.1-.2-.2-.4-.2-.5-.4-.9-.4-1.3v-.2c0-.2 0-.5.1-.9.6-2 2.9-3.8 6.5-5.1h.1c2.9-1.1 6.5-1.8 10.7-1.8 10.2-.4 17.3 3.8 17.3 7.6zm-48.6-42.2c10.3 0 17.4 4.2 17.4 7.9s-7.1 7.9-17.4 7.9-17.4-4-17.4-7.8c0-3.7 7.1-8 17.4-8zm-17.4 60.1v-4.8c4 2.9 10.3 4.8 17.4 4.8 3.3 0 6.5-.4 9.3-1.1v7.8c-2.8.9-6 1.3-9.3 1.3-10.3 0-17.4-4.2-17.4-8zm66 20.9c0 3.8-7.1 7.9-17.4 7.9s-17.4-4.2-17.4-7.9v-4.8c4 2.9 10.3 4.8 17.4 4.8s13.4-1.8 17.4-4.8v4.8z"/>
+                              </svg>
+                          </div>
+                          <div class="services-txt">
+                            <h2>rhoncus purus in</h2>
+                            <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="services-type">
+                          <div class="services-img">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+                                  <path class="blue-services" d="M93.3 19.1h-23.4c1.1-1.8 1.7-3.9 1.7-6.2 0-6.8-5.5-12.4-12.4-12.4-3.7 0-7 1.7-9.3 4.3-2.3-2.6-5.6-4.3-9.3-4.3-6.8 0-12.4 5.5-12.4 12.4 0 2.3.7 4.4 1.7 6.2h-23.2c-3.4 0-6.2 2.8-6.2 6.2v6.2c0 3.4 2.8 6.2 6.2 6.2v49.5c0 6.8 5.5 12.4 12.4 12.4h61.9c6.8 0 12.4-5.5 12.4-12.4v-49.6c3.4 0 6.2-2.8 6.2-6.2v-6.2c-.1-3.4-2.9-6.1-6.3-6.1zm-34-12.4c3.4 0 6.2 2.8 6.2 6.2 0 3.4-2.8 6.2-6.2 6.2s-6.2-2.8-6.2-6.2c0-3.4 2.8-6.2 6.2-6.2zm-18.6 0c3.4 0 6.2 2.8 6.2 6.2 0 3.4-2.8 6.2-6.2 6.2s-6.2-2.8-6.2-6.2c0-3.4 2.8-6.2 6.2-6.2zm6.2 86.6h-27.8c-3.4 0-6.2-2.8-6.2-6.2v-18.5h34v24.7zm0-30.9h-34v-24.8h34v24.8zm40.2 24.7c0 3.4-2.8 6.2-6.2 6.2h-27.8v-24.7h34v18.5zm0-24.7h-34v-24.8h34v24.8zm3.1-31h-80.4c-1.7 0-3.1-1.4-3.1-3.1s1.4-3.1 3.1-3.1h80.4c1.7 0 3.1 1.4 3.1 3.1s-1.4 3.1-3.1 3.1z" id="_x31__1_"/>
+                              </svg>
+                          </div>
+                          <div class="services-txt">
+                              <h2>mattis augue tristique</h2>
+                              <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="services-type">
+                          <div class="services-img">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+                                  <path class="blue-services" d="M71.4 27.1c-.4-.8-1.3-1.2-2.2-.8-.8.4-1.2 1.3-.8 2.2 1.2 2.7 1.9 5.5 1.9 8.5 0 11.2-9.1 20.3-20.3 20.3-11.2 0-20.3-9.1-20.3-20.3 0-11.2 9.1-20.3 20.3-20.3 5.7 0 11.2 2.4 15 6.7.6.7 1.6.7 2.3.1.7-.6.7-1.6.1-2.3-4.4-5-10.8-7.8-17.4-7.8-13 0-23.5 10.6-23.5 23.5s10.5 23.5 23.5 23.5 23.5-10.6 23.5-23.5c0-3.4-.7-6.7-2.1-9.8zM82.5 36.9c0-1.2.5-2.7 1.1-4.2.9-2.3 1.8-4.7 1-7-.8-2.4-3.1-3.9-5.1-5.2-1.3-.9-2.6-1.7-3.3-2.6-.7-1-1.1-2.4-1.5-3.9-.6-2.3-1.3-4.9-3.4-6.4-2-1.5-4.6-1.4-7.1-1.2-1.5-.1-3 0-4.2-.4-1.1-.3-2.2-1.3-3.4-2.2-1.9-1.5-4-3.2-6.6-3.2-2.6 0-4.7 1.7-6.6 3.2-1.2.9-2.4 1.8-3.4 2.2-1.1.4-2.7.3-4.3.2-2.5-.1-5.1-.2-7.1 1.2-2.1 1.5-2.8 4.1-3.4 6.4-.4 1.5-.8 3-1.5 3.9-.7.9-1.9 1.7-3.3 2.6-2 1.3-4.3 2.8-5.1 5.2-.8 2.3.1 4.7 1 7 .6 1.5 1.1 3 1.1 4.2s-.5 2.7-1.1 4.2c-.9 2.3-1.8 4.7-1 7 .8 2.4 3.1 3.9 5.1 5.2 1.3.9 2.6 1.7 3.3 2.6.7 1 1.1 2.4 1.5 3.9.6 2.3 1.3 4.9 3.4 6.4 2 1.5 4.6 1.4 7.1 1.2 1.6-.1 3.1-.1 4.3.2 1.1.3 2.2 1.3 3.4 2.2.9.7 1.9 1.5 2.9 2.1l-6.2 22.4-5.8-6.4c-.4-.5-1.1-.7-1.7-.5l-8.2 2.5 5.2-18.5c.2-.9-.3-1.8-1.1-2-.9-.2-1.8.3-2 1.1l-6 21.4c-.2.6 0 1.2.4 1.6.4.4 1 .6 1.6.4l10.1-3.1 7 7.9c.3.3.8.5 1.2.5h.4c.6-.1 1-.6 1.2-1.1l7-25h1.2l7 25c.2.6.6 1 1.2 1.1h.4c.5 0 .9-.2 1.2-.5l7-7.9 10.1 3.1c.6.2 1.2 0 1.6-.4.4-.4.6-1 .4-1.6l-7.4-26.5c1.5-1.5 2.1-3.7 2.6-5.7.4-1.5.8-3 1.5-3.9.7-.9 1.9-1.7 3.3-2.6 2-1.3 4.3-2.8 5.1-5.2.8-2.3-.1-4.7-1-7-.6-1.2-1.1-2.6-1.1-3.9zm-6.9 53.3l-8.2-2.5c-.6-.2-1.3 0-1.7.5l-5.8 6.4-6.2-22.4c1.1-.6 2-1.4 2.9-2.1 1.2-1 2.3-1.9 3.4-2.2 1.1-.4 2.7-.3 4.3-.2 1.7.1 3.4.2 4.9-.2l6.4 22.7zm5.9-43c-.4 1.4-2.1 2.4-3.8 3.5-1.5 1-3.1 2-4.1 3.4-1 1.4-1.5 3.3-2 5-.5 2-1 3.8-2.2 4.6-1.1.8-3 .7-5 .6-1.8-.1-3.7-.2-5.4.4-1.6.5-3.1 1.7-4.5 2.8-1.6 1.3-3.1 2.5-4.6 2.5s-3-1.2-4.6-2.5c-1.4-1.1-2.8-2.3-4.5-2.8-1.1-.4-2.2-.4-3.4-.4-.7 0-1.4 0-2 .1-2 .1-3.9.2-5-.6s-1.6-2.7-2.2-4.6c-.5-1.8-1-3.6-2-5s-2.6-2.4-4.1-3.4c-1.7-1.1-3.3-2.2-3.8-3.5-.4-1.3.3-3 1-4.9.7-1.7 1.3-3.5 1.3-5.4 0-1.8-.7-3.6-1.3-5.4-.7-1.9-1.4-3.6-1-4.9.4-1.4 2.1-2.4 3.8-3.5 1.5-1 3.1-2 4.1-3.4 1-1.4 1.5-3.3 2-5 .5-2 1-3.8 2.2-4.6 1.1-.8 3-.7 5-.6 1.8.1 3.7.2 5.4-.4 1.6-.5 3.1-1.7 4.5-2.8 1.7-1.4 3.2-2.6 4.7-2.6s3 1.2 4.6 2.5c1.4 1.1 2.8 2.3 4.4 2.8 1.7.6 3.6.5 5.4.4 2-.1 3.9-.2 5 .6s1.6 2.7 2.2 4.6c.5 1.8 1 3.6 2 5s2.6 2.4 4.1 3.4c1.7 1.1 3.3 2.2 3.8 3.5.4 1.3-.3 3-1 4.9-.7 1.7-1.3 3.5-1.3 5.4 0 1.8.7 3.6 1.3 5.4.8 1.8 1.4 3.6 1 4.9zM56.3 26.8h-12.6c-.9 0-1.6.7-1.6 1.6s.7 1.6 1.6 1.6h12.6c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6zM56.3 43.8h-12.6c-.9 0-1.6.7-1.6 1.6s.7 1.6 1.6 1.6h12.6c.9 0 1.6-.7 1.6-1.6s-.7-1.6-1.6-1.6zM60.8 35.3h-4.9c-.9 0-1.6.7-1.6 1.6s.7 1.6 1.6 1.6h4.9c.9 0 1.6-.7 1.6-1.6 0-.9-.7-1.6-1.6-1.6zM50.8 35.3h-11.6c-.9 0-1.6.7-1.6 1.6s.7 1.6 1.6 1.6h11.6c.9 0 1.6-.7 1.6-1.6 0-.9-.7-1.6-1.6-1.6z"/>
+                              </svg>
+                          </div>
+                          <div class="services-txt">
+                              <h2>elementum lacus vitae</h2>
+                              <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="services-type">
+                          <div class="services-img">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" enable-background="new 0 0 100 100">
+                                  <path class="blue-services" d="M95.3 61.4l-7.5-4.4c.4-2.3.7-4.6.7-7.1 0-2.4-.3-4.8-.7-7.1l7.5-4.4c3.1-1.8 4.1-5.7 2.3-8.8l-6.4-11.2c-1.8-3.1-5.7-4.2-8.8-2.4l-7.6 4.4c-3.5-3-7.6-5.5-12.1-7.1v-5.3c0-3.6-2.9-6.5-6.4-6.5h-12.7c-3.5 0-6.4 2.9-6.4 6.5v5.5c-4.5 1.6-8.5 4.1-12.1 7.1l-7.6-4.4c-3.1-1.8-7-.7-8.8 2.4l-6.3 11.1c-1.8 3.1-.7 7 2.3 8.8l7.5 4.4c-.4 2.3-.7 4.6-.7 7.1 0 2.4.3 4.8.7 7.1l-7.5 4.4c-3.1 1.8-4.1 5.7-2.3 8.8l6.4 11.2c1.8 3.1 5.7 4.2 8.8 2.4l7.6-4.4c3.5 3 7.6 5.5 12.1 7.1v5.4c0 3.6 2.9 6.5 6.4 6.5h12.8c3.5 0 6.4-2.9 6.4-6.5v-5.5c4.5-1.6 8.5-4.1 12.1-7.1l7.6 4.4c3.1 1.8 7 .7 8.8-2.4l6.4-11.2c1.6-3 .6-7-2.5-8.8zm-4.8 8.4l-3.2 5.6c-.9 1.5-2.8 2.1-4.4 1.2l-8.9-5.2c-4.5 5.1-10.6 8.8-17.6 10.3v7.1c0 1.8-1.4 3.2-3.2 3.2h-6.4c-1.8 0-3.2-1.4-3.2-3.2v-7.1c-6.9-1.4-13-5.1-17.6-10.3l-8.9 5.2c-1.5.9-3.5.4-4.4-1.2l-3.2-5.6c-.9-1.5-.4-3.5 1.2-4.4l8.9-5.2c-1.1-3.2-1.7-6.6-1.7-10.2 0-3.6.6-7 1.7-10.2l-8.9-5.2c-1.5-.9-2.1-2.9-1.2-4.4l3.2-5.6c.9-1.5 2.8-2.1 4.4-1.2l8.9 5.2c4.5-5.1 10.6-8.8 17.6-10.3v-7.1c0-1.8 1.4-3.2 3.2-3.2h6.4c1.8 0 3.2 1.4 3.2 3.2v7.1c6.9 1.4 13 5.1 17.6 10.3l8.9-5.2c1.5-.9 3.5-.4 4.4 1.2l3.2 5.6c.9 1.5.4 3.5-1.2 4.4l-8.9 5.2c1.1 3.2 1.7 6.6 1.7 10.2 0 3.6-.6 7-1.7 10.2l8.9 5.2c1.5.9 2.1 2.9 1.2 4.4zm-40.5-36c-8.9 0-16 7.2-16 16.2s7.2 16.2 16 16.2 16-7.3 16-16.2c0-8.9-7.1-16.2-16-16.2zm0 25.9c-5.3 0-9.6-4.3-9.6-9.7 0-5.4 4.3-9.7 9.6-9.7s9.6 4.3 9.6 9.7c0 5.4-4.3 9.7-9.6 9.7z" id="_x31__13_"/>
+                              </svg>
+                          </div>
+                          <div class="services-txt">
+                              <h2>Mauris bibendum odio ligula</h2>
+                              <p>Donec sit amet erat ut quam dignissim bibendum porta enim, ut acor tempor felis diam non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                          </div>
+                      </div>
+                  </li>
+              </ul>          
 
           </div>
       </section>
@@ -67,36 +115,90 @@
           <div class="about-img">
               <img src="images/sobre-nos.jpg" alt="Papeis coloridos amassados sobre uma mesa. Um deles faz referencia a uma lâmpada. Ideia!">
           </div>
-          <div class="about-txt">
-              <h1>Sobre Nós</h1>
-              <p>In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. Proin nec tempor ipsum. Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.</p>
-          </div>
+          <div class="about-content">
+              <div class="about-txt">
+                  <h1>Sobre Nós</h1>
+                  <p>In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue. Proin nec tempor ipsum. Sed eu libero at arcu dictum rhoncus. Vestibulum at tempus felis. Vestibulum mattis tincidunt eleifend.In sit amet mi sollicitudin, maximus risus sed, eleifend turpis. Ut aliquet fermentum leo eu vestibulum. Aliquam vitae iaculis neque. Proin vitae quam ac lectus fermentum viverra. Vestibulum eu sem lobortis, rhoncus purus in, mattis augue.</p>
+              </div>
+              <span class="about-chart">
+                  <svg version="1.1" id="circle-01" xmlns="http://www.w3.org/2000/svg" width="140px" height="140px" viewBox="0 0 131 131" style="enable-background:new 0 0 131 131;" xml:space="preserve">
+                      <path class="circle-01-white" d="M65.5,3.7c34.1,0,61.8,27.7,61.8,61.8s-27.7,61.8-61.8,61.8S3.7,99.6,3.7,65.5
+        S31.4,3.7,65.5,3.7z"/>
+                      <path class="circle-01-gray" d="M65.5,3.7c34.1,0,61.8,27.7,61.8,61.8s-27.7,61.8-61.8,61.8S3.7,99.6,3.7,65.5
+        S31.4,3.7,65.5,3.7z"/>
+                  </svg>
 
-    <!--          Criar três círculos com Percentual, Hora e Valor no css. Animar tb! -->
-   
+                <svg version="1.1" id="circle-02" xmlns="http://www.w3.org/2000/svg" width="140px" height="140px" viewBox="0 0 131 131" style="enable-background:new 0 0 131 131;" xml:space="preserve">
+                        <path class="circle-02-white" d="M65.5,3.7c34.1,0,61.8,27.7,61.8,61.8s-27.7,61.8-61.8,61.8S3.7,99.6,3.7,65.5
+        S31.4,3.7,65.5,3.7z"/>
+                        <path class="circle-02-gray" d="M65.5,3.7c34.1,0,61.8,27.7,61.8,61.8s-27.7,61.8-61.8,61.8S3.7,99.6,3.7,65.5
+        S31.4,3.7,65.5,3.7z"/>
+                  </svg>
+
+                <svg version="1.1" id="circle-03" xmlns="http://www.w3.org/2000/svg" width="140px" height="140px" viewBox="0 0 131 131" style="enable-background:new 0 0 131 131;" xml:space="preserve">
+                        <path class="circle-03-white" d="M65.5,3.7c34.1,0,61.8,27.7,61.8,61.8s-27.7,61.8-61.8,61.8S3.7,99.6,3.7,65.5
+        S31.4,3.7,65.5,3.7z"/>
+                        <path class="circle-03-gray" d="M65.5,3.7c34.1,0,61.8,27.7,61.8,61.8s-27.7,61.8-61.8,61.8S3.7,99.6,3.7,65.5
+        S31.4,3.7,65.5,3.7z"/>
+                  </svg>
+              </span>
+          </div>
       </section>
       
       <section class="how-it-works">
           <div class="container">
-              <h1>Como Funciona?</h1>
+              <div class="header-hiw"><h1>Como Funciona?</h1></div>
               <div class="steps">
-                  <h2>Passo 1</h2>
-                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+                  <div class="step">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icons-hiw">
+                          <path d="M50 1c-27 0-49 22-49 49s22 49 49 49 49-22 49-49-22-49-49-49zm42.9 34.8h-3c-.9 0-1.9.2-2.7.6l-1.1.6c-.7.3-1.5.3-2.2-.1l-4.2-2.8c-.3-.2-.7-.3-1.1-.3h-.5l1.4-2.1c.1-.1.2-.2.3-.2h3v.8c0 1.1.9 1.9 1.9 1.9.9 0 1.7-.7 1.9-1.6l.7.4c.7.3 1.5.5 2.2.5h2.5l.9 2.3zm-14.4-17.7l1.5-1.5s.1-.1.1-.2l2.5 2.4-1.2 1.2c-.7.7-.7 2 0 2.7.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l1-1c2 2.5 3.7 5.1 5.2 8h-.7c-.2 0-.4 0-.5-.1l-3-1.5c-.6-.3-1.2-.4-1.9-.4h-4.4c-1.4 0-2.7.7-3.5 1.9l-2.8 4.3h-1.8c-.8 0-1.4-.6-1.4-1.4v-3.5c0-.1 0-.1.1-.1l3.7-1.2c.9-.3 1.8-.8 2.5-1.5 1.2-1.2 1.9-2.8 1.9-4.5l-.1-3.6zm-58.7-1.7l.1.2 2 2c.4.4.8.6 1.4.6.5 0 1-.2 1.4-.6l2.9-2.9c.4-.4 1-.6 1.5-.6h2.5v.1c0 .7.3 1.3.9 1.6.6.3 1.3.4 1.9.1l3.3-1.7c.2-.1.5-.2.7-.2h6.8c-.7.5-1.3 1.3-1.4 2.2-.2 1.3.3 2.6 1.4 3.3l2.6 1.8.1.1v1c0 .1-.1.1-.1.1h-.9c-1.3 0-2.5.5-3.3 1.4l-12.8 12.9h-3.3000000000000003c-3.3 0-6 2.7-6 6v.9l-2.1-.4c-.5-.1-.9-.4-1.2-.9l-1.3-2.4c-.3-.7-1-1.1-1.7-1.1h-1.1c-.9 0-1.8-.6-2.1-1.5l-2.7-8c2.6-5.3 6.2-10.1 10.5-14zm30.2 78.8c-24.9 0-45.2-20.3-45.2-45.2 0-4.9.8-9.7 2.3-14.1l1.2 3.7c.8 2.4 3.1 4.1 5.7 4.1l.7 1.5c.8 1.5 2.2 2.6 3.8 2.9l7.3 1.5c.4.1.8.3 1.1.6.6.6 1.3 1 2.1 1.3l-1.3 4c-.1.2-.1.4-.1.6v4.1c0 1.9.9 3.7 2.4 4.8l4.9 3.7c.5.4.9 1.1.9 1.7v11c0 1.2.3 2.3 1 3.3l3 4.4c.6 1 1.7 1.5 2.9 1.5h.7c1.3 0 2.4-1.1 2.4-2.4v-3.5c0-.9.3-1.7.9-2.3l3.8-3.8c.8-.8 1.4-1.7 1.7-2.8l1.2-3.6c0-.1.1-.1.1-.1h1c1.8 0 3.4-1.2 3.8-3l1.4-5.5c.3-1.3-.1-2.8-1-3.8l-2.7-2.7c-.7-.7-1.7-1.2-2.8-1.2h-2.5l-7-7c-.7-.4-1.7-.8-2.7-.8h-9.700000000000001c-.6 0-1.1-.2-1.5-.6-.8-.8-1.9-1.4-3-1.6l-1.4-.3v-1.7c0-1.2 1-2.2 2.2-2.2h2.2v.1c0 1.1.9 1.9 1.9 1.9 1.1 0 1.9-.9 1.9-1.9v-1.3l12.9-12.9c.2-.2.4-.3.6-.3h.9c2.2 0 4-1.8 4-4v-1c0-1.3-.7-2.6-1.8-3.3l-1.6-1.1 3.1-.8c1.4-.3 2.3-1.6 2.3-3 0-1.7-1.4-3.1-3.1-3.1h-12.4c-.8 0-1.7.2-2.4.6l-1.3.6c-.6-.7-1.5-1.2-2.5-1.2h-3.2c-1.6 0-3.1.6-4.3 1.8l-1.5 1.5-.5-.3c7.6-5.7 17-9.1 27.2-9.1s19.6 3.3 27.2 9.1l-1.3 1.3c-.7.7-1.2 1.7-1.2 2.8v3.4c0 .7-.3 1.3-.7 1.8-.3.3-.6.5-1 .6l-3.7 1.2c-1.6.5-2.7 2.1-2.7 3.8v3.4c0 1 .3 1.9.7 2.6-.8.5-1.5 1.2-2 2l-1.8 2.7c-.7 1-1 2.1-1 3.3v3.7c0 1.2.3 2.3 1 3.3l2.2 3.3c1.1 1.7 3 2.7 5 2.7h5.1c.9 0 1.8.6 2.1 1.5l.5 1.4c.4 1.1.6 2.3.6 3.4v1.4c0 1.9.3 3.8.8 5.7l3.3 11.5c-8.5 8.9-20.2 14.4-33.1 14.4zm-12.8-29.5l-4.9-3.7c-.5-.4-.9-1.1-.9-1.7v-3.8l1.5-4.5h8.1l7.6 7.6c.4.4.8.6 1.4.6h3.3000000000000003l2.7 2.7v.1l-1.4 5.5c0 .1-.1.1-.1.1h-1c-1.7 0-3.2 1.1-3.8 2.7l-1.2 3.6c-.2.5-.4.9-.8 1.3l-3.7 3.7c-1.3 1.3-2.1 3.1-2.1 5v.8l-1.9-3c-.2-.4-.4-.8-.4-1.2v-11c0-1.9-.9-3.7-2.4-4.8zm46.1 2.7c-.4-1.5-.6-3-.6-4.6v-1.4c0-1.6-.3-3.1-.8-4.7l-.5-1.4c-.8-2.5-3.1-4.1-5.7-4.1h-5.1c-.7 0-1.4-.4-1.8-1l-2.2-3.3c-.2-.4-.4-.8-.4-1.2v-3.7c0-.4.1-.8.4-1.2l1.8-2.7c.6-1 1.7-1.5 2.9-1.5h6.8l3.7 2.5c1.8 1.2 4.1 1.3 6 .4l1.1-.6c.3-.2.6-.2 1-.2h4.1c.8 3.3 1.2 6.8 1.2 10.4 0 10.3-3.5 19.8-9.3 27.4l-2.6-9.1z"/>
+                      </svg>
+                      <h2>Passo 1</h2>
+                      <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+                  </div>
+                      <svg class="step arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                          <path d="M9.8,53c6.3-5.3,21-15.5,40.2-15.5c20.5,0,35.8,11.7,41.3,16.5"/>
+                          <polygon points="100,52.8 100,62.5 90.3,62.5"/>
+                          <polygon points="0,52.8 0,62.5 9.7,62.5"/>
+                      </svg>
+                  <div class="step">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icons-hiw">
+                          <path d="M97.6 18.5c-.3-.4-.9-.6-1.4-.6h-77.4l-.9-7.6c-.7-5.3-5.1-9.3-10.4-9.3h-3.7c-1 0-1.8.8-1.8 1.8s.8 1.8 1.8 1.8h3.7c3.4 0 6.3 2.6 6.7 6l7.5 62.2c.7 5.5 5.3 9.6 10.8 9.6h7.2l-.8 1.5c-.6-.1-1.2-.2-1.8-.2-4.2 0-7.7 3.4-7.7 7.7 0 4.2 3.4 7.7 7.7 7.7s7.7-3.4 7.7-7.7c0-2.3-1-4.3-2.6-5.7l1.7-3.2h38l-.9 1.4c-.6-.1-1.2-.2-1.8-.2-4.2 0-7.7 3.4-7.7 7.7 0 4.2 3.4 7.7 7.7 7.7 4.2 0 7.7-3.4 7.7-7.7 0-2.3-1-4.3-2.6-5.7l1.7-3.2h1.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8h-55c-3.6 0-6.7-2.7-7.2-6.3l-1-8.5h66.8c.9 0 1.7-.7 1.8-1.6l5.1-42.6c.1-.5-.1-1-.4-1.4zm-56.6 72.8c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4l-1.6 3.1c-.5.9-.1 2 .8 2.5.3.1.6.2.9.2.7 0 1.3-.4 1.6-1l1.6-3.1c.5.7.7 1.5.7 2.3zm42.1 0c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4l-1.6 3.1c-.5.9-.1 2 .8 2.5.3.1.6.2.9.2.7 0 1.3-.4 1.6-1l1.6-3.1c.5.7.7 1.5.7 2.3zm-33.8-69.8h14.7l-1.1 38.7h-12.5l-1.1-38.7zm-2.6 38.8h-10.6l-3-38.7h12.6l1 38.7zm21-38.8h12.6l-3 38.7h-10.7l1.1-38.7zm-48.5 0h10.2l3 38.7h-8.5c0 .1-4.7-38.7-4.7-38.7zm70.3 38.8h-8.5l3-38.7h10.2l-4.7 38.7z"/>
+                      </svg>
+                      <h2>Passo 2</h2>
+                      <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+                  </div>
+                  <svg class="step arrow arrow-up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <path d="M9.8,53c6.3-5.3,21-15.5,40.2-15.5c20.5,0,35.8,11.7,41.3,16.5"/>
+                      <polygon points="100,52.8 100,62.5 90.3,62.5"/>
+                      <polygon points="0,52.8 0,62.5 9.7,62.5"/>
+                  </svg>
+                  <div class="step">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icons-hiw">
+                          <path d="M94.8 67.6c2-2.6 3-5.3 2.8-8.1-.1-3.1-1.5-5.6-2.7-7 1.3-3.3 1.8-8.5-2.6-12.6-3.3-3-8.8-4.3-16.5-3.9-5.4.2-9.9 1.3-10.1 1.3-1 .2-2.1.4-3.2.7-.1-1.3.1-4.6 2.6-11.9 2.9-8.7 2.7-15.4-.5-19.9-3.4-4.8-8.8-5.2-10.4-5.2-1.5 0-3 .6-4 1.8-2.3 2.6-2 7.5-1.7 9.8-2.7 7.3-10.3 25-16.7 30l-.3.3c-1.9 2-3.2 4.1-4 6-1.2-.7-2.6-1-4.1-1h-12.5c-4.7 0-8.5 3.8-8.5 8.5v33.3c0 4.7 3.8 8.5 8.5 8.5h12.5c1.8 0 3.5-.6 4.9-1.6l4.8.6c.7.1 13.9 1.8 27.3 1.5 2.4.2 4.7.3 6.9.3 3.7 0 6.9-.3 9.5-.9 6.3-1.3 10.6-4 12.7-7.9 1.7-3 1.7-6 1.4-7.8 4.1-3.7 4.8-7.8 4.7-10.6-.1-1.7-.4-3.1-.8-4.2zm-83.9 25.1c-1.7 0-3-1.4-3-3v-33.3c0-1.7 1.4-3 3-3h12.5c1.7 0 3 1.4 3 3v33.3c0 1.7-1.4 3-3 3h-12.5zm78.6-27.5c-.9.9-1 2.3-.4 3.3 0 0 .8 1.5.9 3.4.1 2.7-1.1 5.1-3.9 7.1-1 .7-1.4 2-.9 3.2 0 0 .9 2.7-.6 5.3-1.4 2.5-4.4 4.2-9.1 5.2-3.7.8-8.8.9-14.9.5h-.3c-13.2.3-26.5-1.4-26.6-1.5l-2.1-.2c.1-.6.2-1.2.2-1.8v-33.3c0-.9-.1-1.7-.4-2.5.4-1.4 1.4-4.4 3.8-7 9.2-7.3 18.2-31.9 18.6-33 .2-.4.2-.9.1-1.4-.3-2.3-.2-5.1.3-5.9 1.1 0 4 .3 5.8 2.8 2.1 2.9 2 8.1-.2 14.9-3.4 10.4-3.7 15.9-1 18.3 1.4 1.2 3.2 1.3 4.5.8 1.3-.3 2.4-.5 3.6-.7.1 0 .2 0 .3-.1 6.3-1.4 17.6-2.2 21.5 1.4 3.3 3 1 7 .7 7.5-.8 1.1-.5 2.6.5 3.6 0 0 2.2 2 2.3 4.8 0 1.6-.9 3.5-2.7 5.3z"/>
+                      </svg>
+                      <h2>Passo 3</h2>
+                      <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+                  </div>
+                  <svg class="step arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                          <path d="M9.8,53c6.3-5.3,21-15.5,40.2-15.5c20.5,0,35.8,11.7,41.3,16.5"/>
+                          <polygon points="100,52.8 100,62.5 90.3,62.5"/>
+                          <polygon points="0,52.8 0,62.5 9.7,62.5"/>
+                      </svg>               
+                  <div class="step">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icons-hiw">
+                          <path d="M99 50.1l-12.9-14.7c-.4-.5-1-.8-1.7-.8h-10.6v-9c0-1.2-1-2.2-2.2-2.2h-45.5c-1.2 0-2.2 1-2.2 2.2v3h-21.2c-1.2 0-2.2 1-2.2 2.2 0 1.2 1 2.2 2.2 2.2h21.2v28.6h-12.8c-1.2 0-2.2 1-2.2 2.2s1 2.2 2.2 2.2h12.8v2.2c0 1.2 1 2.2 2.2 2.2h4.6c1 3.5 4.2 6.1 8 6.1s7.1-2.6 8-6.1h29.4c1 3.5 4.2 6.1 8 6.1s7.1-2.6 8-6.1h5.1c1.2 0 2.2-1 2.2-2.2v-16.7c.1-.5-.1-1-.4-1.4zm-60.3 22.1c-2.2 0-3.9-1.8-3.9-3.9 0-2.2 1.8-3.9 3.9-3.9s3.9 1.8 3.9 3.9c.1 2.1-1.7 3.9-3.9 3.9zm8.1-6.2c-1-3.5-4.2-6.1-8-6.1s-7.1 2.6-8 6.1h-2.4v-38.2h41.1v38.2h-22.7zm37.4 6.2c-2.2 0-3.9-1.8-3.9-3.9 0-2.2 1.8-3.9 3.9-3.9 2.2 0 3.9 1.8 3.9 3.9 0 2.1-1.7 3.9-3.9 3.9zm10.9-6.2h-2.9c-1-3.5-4.2-6.1-8-6.1s-7.1 2.6-8 6.1h-2.4v-26.9h9.7l11.6 13.3v13.6zM19.9 43.9h-11.8c-.6 0-1.1.6-1.1 1.4s.5 1.4 1.1 1.4h11.8c.6 0 1.1-.6 1.1-1.4s-.5-1.4-1.1-1.4zM15.9 52.9h-11.8c-.6 0-1.1.6-1.1 1.4s.5 1.4 1.1 1.4h11.8c.6 0 1.1-.6 1.1-1.4s-.5-1.4-1.1-1.4z"/>
+                      </svg>
+                      <h2>Passo 4</h2>
+                      <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+                  </div>
               </div>
-              <div class="steps">
-                  <h2>Passo 2</h2>
-                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
-              </div>  
-              <div class="steps">
-                  <h2>Passo 3</h2>
-                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
-              </div>   
-              <div class="steps">
-                  <h2>Passo 4</h2>
-                  <p>Donec posuere, libero in tincidunt consectetur, velit diam lacinia magna, ut dignissim ligula est at erat.</p>
+<!--
+              <div class="btn btn-info">
+                  <a href="#">Leia Mais</a>
               </div>
-              <a class="btn btn-info" href="#">Leia Mais</a>
-
+-->
+              
           </div>
       </section>
       
@@ -118,55 +220,90 @@
           
       <section class="data">   
           <div class="container">
-              <h1>Dados</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="header-data">
+                  <h1>Dados</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
 
-              <table>
-                  <tr>
-                      <th> </th>
-                      <th class="table-header">Nome</th>
-                      <th class="table-header">Sobrenome</th>
-                      <th class="column-centered">Participação</th>
-                  </tr>
-                  <tr>
-                      <td>1</td>
-                      <td>Carlos</td>
-                      <td>Moura</td>
-                      <td class="column-centered">5%</td>
-                  </tr>
-                  <tr>
-                      <td>2</td>
-                      <td>Fernanda</td>
-                      <td>Oliveira</td>
-                      <td class="column-centered">15%</td>
-                  </tr>
-                   <tr>
-                      <td>3</td>
-                      <td>Hugo</td>
-                      <td>Silva</td>
-                      <td class="column-centered">20%</td>
-                  </tr>             
-                  <tr>
-                      <td>4</td>
-                      <td>Eliza</td>
-                      <td>Souza</td>
-                      <td class="column-centered">20%</td>
-                   </tr>                   
-                   <tr>
-                      <td>5</td>
-                      <td>Anderson</td>
-                      <td>Santos</td>
-                      <td class="column-centered">40%</td>
-                  </tr>                 
-              </table>
-
-    <!--         Criar o gráfico no css-->
-          </div>
+                  
+                      <table>
+                          <tr>
+                              <th> </th>
+                              <th class="table-header">Nome</th>
+                              <th class="table-header">Sobrenome</th>
+                              <th class="column-centered">Participação</th>
+                          </tr>
+                          <tr>
+                              <td>1</td>
+                              <td>Carlos</td>
+                              <td>Moura</td>
+                              <td class="column-centered">5%</td>
+                          </tr>
+                          <tr>
+                              <td>2</td>
+                              <td>Fernanda</td>
+                              <td>Oliveira</td>
+                              <td class="column-centered">15%</td>
+                          </tr>
+                           <tr>
+                              <td>3</td>
+                              <td>Hugo</td>
+                              <td>Silva</td>
+                              <td class="column-centered">20%</td>
+                          </tr>             
+                          <tr>
+                              <td>4</td>
+                              <td>Eliza</td>
+                              <td>Souza</td>
+                              <td class="column-centered">20%</td>
+                           </tr>                   
+                           <tr>
+                              <td>5</td>
+                              <td>Anderson</td>
+                              <td>Santos</td>
+                              <td class="column-centered">40%</td>
+                          </tr>
+                      </table>
+              
+              <span class="chart-circle">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 232">
+                      <g class="data-circle">
+                          <path class="blue-hugo" d="M115.9 57l-.7-56.5c-63.4.7-114.7 52.3-114.7 116 0 8.2.9 16.3 2.5 24l55-12.4c-.7-3.6-1-7.3-1-11.1 0-32.8 26.3-59.4 58.9-60z"/>
+		                  <path class="gray-fernanda" d="M118.3.5l.7 56.5c17.4.5 32.9 8.5 43.5 20.8l43.7-35c-21-25.4-52.5-41.8-87.9-42.3z"/>
+		                  <path class="purple-eliza" d="M208 45.2l-43.7 34.9c7.9 10.2 12.6 23 12.6 36.9 0 10-2.4 19.4-6.8 27.7l48.3 27.1c8.9-16.4 14-35.3 14-55.3.1-26.9-9-51.6-24.4-71.3z"/>
+		                  <path class="orange-anderson" d="M168.8 147.3c-10.4 17.8-29.7 29.7-51.8 29.7-15.3 0-29.3-5.8-39.9-15.2l-38.8 40.3c20.6 18.9 48.1 30.4 78.3 30.4 43 0 80.5-23.4 100.5-58.1l-48.3-27.1z"/>
+		                  <path class="green-carlos" d="M58.6 131l-55 12.4c5.2 21.9 16.7 41.5 32.4 56.6l38.8-40.3c-7.8-7.7-13.5-17.6-16.2-28.7z"/>
+                      </g>
+                      <g>
+                          <path class="blue-hugo" d="M276 25h-15c-2.8 0-5-2.2-5-5v-15c0-2.8 2.2-5 5-5h15c2.8 0 5 2.2 5 5v15c0 2.8-2.2 5-5 5z"/>
+                          <text class="blue-hugo label-graph" x="291" y="16.87">Hugo Silva</text>
+                      </g>
+                      <g>
+                          <path class="green-carlos" d="M276 77h-15c-2.8 0-5-2.2-5-5v-15c0-2.8 2.2-5 5-5h15c2.8 0 5 2.2 5 5v15c0 2.8-2.2 5-5 5z"/>
+                          <text class="green-carlos label-graph" x="291" y="69.87">Carlos Moura</text>
+                      </g>
+                      <g>
+                          <path class="purple-eliza" d="M276 129h-15c-2.8 0-5-2.2-5-5v-15c0-2.8 2.2-5 5-5h15c2.8 0 5 2.2 5 5v15c0 2.8-2.2 5-5 5z"/>
+                          <text class="purple-eliza label-graph" x="291" y="121.87">Eliza Souza</text>
+                    </g>
+                    <g>
+                        <path class="gray-fernanda" d="M276 181h-15c-2.8 0-5-2.2-5-5v-15c0-2.8 2.2-5 5-5h15c2.8 0 5 2.2 5 5v15c0 2.8-2.2 5-5 5z"/>
+                        <text class="gray-fernanda label-graph" x="291" y="173.87">Fernanda Oliveira</text>
+                    </g>
+                    <g>
+                        <path class="orange-anderson" d="M276 233h-15c-2.8 0-5-2.2-5-5v-15c0-2.8 2.2-5 5-5h15c2.8 0 5 2.2 5 5v15c0 2.8-2.2 5-5 5z"/>
+                        <text class="orange-anderson label-graph" x="291" y="225.87">Anderson Santos</text>
+                    </g>
+                </svg>
+                  
+            
+              </span>
+            </div>
       </section> 
     </body>
     <footer>
         <div class="line"></div>
-        <div class="container">
+        <div class="footer">
             <div class="cubo-adress">
                 <p><strong>CUBO</strong></p>
                 <p>Rua Casa do Ator, 919</p>
